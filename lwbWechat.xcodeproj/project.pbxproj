@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		04A73C7B1C7BDB5500529AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73C7A1C7BDB5500529AD2 /* main.m */; };
 		04A73C7E1C7BDB5500529AD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73C7D1C7BDB5500529AD2 /* AppDelegate.m */; };
-		04A73C811C7BDB5500529AD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73C801C7BDB5500529AD2 /* ViewController.m */; };
-		04A73C841C7BDB5500529AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A73C821C7BDB5500529AD2 /* Main.storyboard */; };
 		04A73C861C7BDB5500529AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A73C851C7BDB5500529AD2 /* Assets.xcassets */; };
 		04A73C891C7BDB5500529AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A73C871C7BDB5500529AD2 /* LaunchScreen.storyboard */; };
 		04A73C941C7BDB5500529AD2 /* lwbWechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73C931C7BDB5500529AD2 /* lwbWechatTests.m */; };
 		04A73C9F1C7BDB5500529AD2 /* lwbWechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73C9E1C7BDB5500529AD2 /* lwbWechatUITests.m */; };
+		04A73CB31C7BE46900529AD2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73CB21C7BE46900529AD2 /* MainViewController.m */; };
+		04A73CBD1C7BE56F00529AD2 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73CBB1C7BE56F00529AD2 /* DiscoveryViewController.m */; };
+		04A73CBE1C7BE56F00529AD2 /* DiscoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A73CBC1C7BE56F00529AD2 /* DiscoveryViewController.xib */; };
+		04A73CC21C7BE58A00529AD2 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73CC01C7BE58A00529AD2 /* ContactsViewController.m */; };
+		04A73CC31C7BE58A00529AD2 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A73CC11C7BE58A00529AD2 /* ContactsViewController.xib */; };
+		04A73CC71C7BE5A800529AD2 /* WechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73CC51C7BE5A800529AD2 /* WechatViewController.m */; };
+		04A73CC81C7BE5A800529AD2 /* WechatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A73CC61C7BE5A800529AD2 /* WechatViewController.xib */; };
+		04A73CCC1C7BE5B800529AD2 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A73CCA1C7BE5B800529AD2 /* MeViewController.m */; };
+		04A73CCD1C7BE5B800529AD2 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A73CCB1C7BE5B800529AD2 /* MeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +46,6 @@
 		04A73C7A1C7BDB5500529AD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04A73C7C1C7BDB5500529AD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A73C7D1C7BDB5500529AD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04A73C7F1C7BDB5500529AD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04A73C801C7BDB5500529AD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04A73C831C7BDB5500529AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A73C851C7BDB5500529AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A73C881C7BDB5500529AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A73C8A1C7BDB5500529AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,20 @@
 		04A73C9A1C7BDB5500529AD2 /* lwbWechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lwbWechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A73C9E1C7BDB5500529AD2 /* lwbWechatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lwbWechatUITests.m; sourceTree = "<group>"; };
 		04A73CA01C7BDB5500529AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A73CB11C7BE46900529AD2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04A73CB21C7BE46900529AD2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04A73CBA1C7BE56F00529AD2 /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		04A73CBB1C7BE56F00529AD2 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		04A73CBC1C7BE56F00529AD2 /* DiscoveryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoveryViewController.xib; sourceTree = "<group>"; };
+		04A73CBF1C7BE58A00529AD2 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		04A73CC01C7BE58A00529AD2 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		04A73CC11C7BE58A00529AD2 /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		04A73CC41C7BE5A800529AD2 /* WechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatViewController.h; sourceTree = "<group>"; };
+		04A73CC51C7BE5A800529AD2 /* WechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatViewController.m; sourceTree = "<group>"; };
+		04A73CC61C7BE5A800529AD2 /* WechatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WechatViewController.xib; sourceTree = "<group>"; };
+		04A73CC91C7BE5B800529AD2 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		04A73CCA1C7BE5B800529AD2 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		04A73CCB1C7BE5B800529AD2 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +121,24 @@
 			children = (
 				04A73C7C1C7BDB5500529AD2 /* AppDelegate.h */,
 				04A73C7D1C7BDB5500529AD2 /* AppDelegate.m */,
-				04A73C7F1C7BDB5500529AD2 /* ViewController.h */,
-				04A73C801C7BDB5500529AD2 /* ViewController.m */,
-				04A73C821C7BDB5500529AD2 /* Main.storyboard */,
+				04A73CB11C7BE46900529AD2 /* MainViewController.h */,
+				04A73CB21C7BE46900529AD2 /* MainViewController.m */,
 				04A73C851C7BDB5500529AD2 /* Assets.xcassets */,
 				04A73C871C7BDB5500529AD2 /* LaunchScreen.storyboard */,
 				04A73C8A1C7BDB5500529AD2 /* Info.plist */,
 				04A73C791C7BDB5500529AD2 /* Supporting Files */,
+				04A73CBA1C7BE56F00529AD2 /* DiscoveryViewController.h */,
+				04A73CBB1C7BE56F00529AD2 /* DiscoveryViewController.m */,
+				04A73CBC1C7BE56F00529AD2 /* DiscoveryViewController.xib */,
+				04A73CBF1C7BE58A00529AD2 /* ContactsViewController.h */,
+				04A73CC01C7BE58A00529AD2 /* ContactsViewController.m */,
+				04A73CC11C7BE58A00529AD2 /* ContactsViewController.xib */,
+				04A73CC41C7BE5A800529AD2 /* WechatViewController.h */,
+				04A73CC51C7BE5A800529AD2 /* WechatViewController.m */,
+				04A73CC61C7BE5A800529AD2 /* WechatViewController.xib */,
+				04A73CC91C7BE5B800529AD2 /* MeViewController.h */,
+				04A73CCA1C7BE5B800529AD2 /* MeViewController.m */,
+				04A73CCB1C7BE5B800529AD2 /* MeViewController.xib */,
 			);
 			path = lwbWechat;
 			sourceTree = "<group>";
@@ -207,6 +236,7 @@
 				TargetAttributes = {
 					04A73C751C7BDB5500529AD2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 99QLU7P2CG;
 					};
 					04A73C8E1C7BDB5500529AD2 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,9 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A73CCD1C7BE5B800529AD2 /* MeViewController.xib in Resources */,
+				04A73CC81C7BE5A800529AD2 /* WechatViewController.xib in Resources */,
+				04A73CBE1C7BE56F00529AD2 /* DiscoveryViewController.xib in Resources */,
+				04A73CC31C7BE58A00529AD2 /* ContactsViewController.xib in Resources */,
 				04A73C891C7BDB5500529AD2 /* LaunchScreen.storyboard in Resources */,
 				04A73C861C7BDB5500529AD2 /* Assets.xcassets in Resources */,
-				04A73C841C7BDB5500529AD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A73C811C7BDB5500529AD2 /* ViewController.m in Sources */,
+				04A73CC21C7BE58A00529AD2 /* ContactsViewController.m in Sources */,
 				04A73C7E1C7BDB5500529AD2 /* AppDelegate.m in Sources */,
+				04A73CCC1C7BE5B800529AD2 /* MeViewController.m in Sources */,
+				04A73CBD1C7BE56F00529AD2 /* DiscoveryViewController.m in Sources */,
+				04A73CB31C7BE46900529AD2 /* MainViewController.m in Sources */,
+				04A73CC71C7BE5A800529AD2 /* WechatViewController.m in Sources */,
 				04A73C7B1C7BDB5500529AD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04A73C821C7BDB5500529AD2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04A73C831C7BDB5500529AD2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04A73C871C7BDB5500529AD2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = lwbWechat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwb.lwbWechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = lwbWechat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwb.lwbWechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";

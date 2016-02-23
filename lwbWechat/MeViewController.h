@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MeViewController.h
 //  lwbWechat
 //
 //  Created by Mac on 16/2/23.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MeViewController : UIViewController
 
 @end
-
